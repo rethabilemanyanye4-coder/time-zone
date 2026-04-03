@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/script.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>HTML Input</title>
 </head>
 <body>
 <div>
    <select id="countries">
     <option value="">Select a country</option>
-    <option value="Paris">Paris</option>
-    <option value="Tokyo">Tokyo</option>
-    <option value="Sydney">Sydney</option>
+    <option value="Paris">Paris<small>FR</small></option>
+    <option value="Tokyo">Tokyo<small>JP</small></option>
+    <option value="Sydney">Sydney<small>AU</small></option>
    </select>
 </div>
 <script src="src/index.js"></script>
+
 </body>
 </html>
